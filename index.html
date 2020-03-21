@@ -24,7 +24,6 @@
             font-family: Arial, Helvetica, sans-serif, sans-serif;
             
         }
-
         h1 {
             text-align: center;
             color: rgb(66, 15, 77);
@@ -36,7 +35,41 @@
             border-radius: 500px;
             margin: 50px;
         }
+        h2 {
+            line-height: 150px;
+            font-family: serif;
+            color:#11a36a;
+            font-size: 28px;
+        }
+        p {
+            color: whitesmoke;
+            display: inline-block;
+            text-align: left;
+            line-height: 1.7em;
+            font-size: 18px;
+        }
+        ul, ol {
+            display: inline-block;
+            line-height: 1.7em;
+        }
 
+        li {
+            text-align: left;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 15px;
+            border-radius: 4px;
+            max-width:300px;
+            max-height:300px;
+            width: auto;
+            height: auto;
+            border-radius: 800px;
+            border-color: #11a36a;
+            border-style: solid;
+        }                                    
         .button {
             color: #fff;
             background-color: #11a36a;
@@ -48,7 +81,6 @@
             margin: 10px;
 
         }
-
         .button-links {
             display: flex;
 	        justify-content: center;
@@ -63,52 +95,15 @@
             border-radius: 500px;
             margin: 1px;
         }
-
-        h2 {
-            line-height: 150px;
-            font-family: serif;
-            color:rgb(180, 96, 219);
-            font-size: 28px;
+        .cor-link-trybe-newton {
+            color: #11a36a;
         }
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 15px;
-            border-radius: 4px;
-        }   
-        
-        ul, ol {
-            display: inline-block;
-            line-height: 1.7em;
-        }
-
-        li {
-            text-align: left;
-        }
-        img {
-            max-width:300px;
-            max-height:300px;
-            width: auto;
-            height: auto;
-            border-radius: 800px;
-            border-color: #11a36a;
-            border-style: solid;
-        }
-        p {
-            color: whitesmoke;
-            display: inline-block;
-            text-align: left;
-            line-height: 1.7em;
-            font-size: 18px;
-        }
-
         .esquerda {
-            text-align: left;
-            margin-left: 1200px;
+            display: table;
+            float: left;
+            width: 910px;
+            margin-top: 200px;
         }
-
         #topo {
             text-decoration: none;
             display: flex;
@@ -124,7 +119,6 @@
             border-radius: 500px;
             margin: 1px;
         }
-
         #font-1 {
             font-family: 'Indie Flower', cursive, sans-serif;
             line-height: 30px;
@@ -160,31 +154,26 @@
             line-height: 30px;
             font-size: 25px;
         }
-
-       
-
-                         
+                        
     </style>
-
 </head>
 
 <body>
     <h1 id="voltar-topo">> Júnio Melo <</h1>
     <img src="./img-trybe.jpg" alt="Aluno Trybe" width="300">     
     
-    <h2>./Um pouco sobre mim...</h2>
-        <p>
+    <h2 class="esquerda">./Um pouco sobre mim...</h2>
+        <p class="esquerda">
             Sou Brasileiro, natural de Sete Lagoas - Minas Gerais. <br>
-            <strong>Sou estudante de Desenvolvimento de Software da <a target="_blank" href="https://www.betrybe.com/">TRYBE</a>.</strong> <br>
+            <strong><em>Sou estudante de Desenvolvimento de Software da <a class="cor-link-trybe-newton" target="_blank" href="https://www.betrybe.com/">TRYBE</a>.<br>
             O programa conta com mais de 1.500 horas de aulas presenciais e<br>
             online e aborda introdução ao desenvolvimento de software,<br>
             front-end, back-end, ciência da computação, engenharia de<br>
-            software, metodologias ágeis e habilidades comportamentais.<br>
-            Sou graduado em Engenharia Elétrica pela <a target="_blank" href="https://www.newtonpaiva.br/home">Newton Paiva</a> e no estágio <br>
+            software, metodologias ágeis e habilidades comportamentais.<br></strong></em>
+            Sou graduado em Engenharia Elétrica pela <a class="cor-link-trybe-newton" target="_blank" href="https://www.newtonpaiva.br/home">Newton Paiva</a> e no estágio <br>
             desta graduação adquiri conhecimento nas principais rotinas que <br>
             envolvem área tecnológica, <em>onde me apaixonei e pretendo seguir carreira.</em>
-        </p>
-<br>
+        </p><br>
     
     <h2 class="esquerda">./Experiências...</h2>
         <p class="esquerda">
@@ -197,15 +186,14 @@
             empresa Codebuddy durante um curto período.<br>
         </p>
 
-
-    <h2>./Eu gosto de...</h2>
-        <p >        
+    <h2 class="esquerda">./Eu gosto de...</h2>
+        <p class="esquerda">        
                 <ol>
-                    <li id="font-1">Programar</li>
+                    <li id="font-1">Codar </li>
                     <li id="font-2">Tecnologia em geral</li>
                     <li id="font-3">Séries/filmes/animes/mángas</li>
                     <li id="font-4">Estar com minha família</li>
-                    <li id="font-5">Viajar, claro!</li>
+                    <li id="font-5">Viajar é vida!</li>
                     <li id="font-6">Barzinho e vários encontros com amigos.</li>
                     <li id="font-7">Viver; viver muito e com muita luz!</li><br>
                 </ol>
@@ -215,10 +203,7 @@
 
     <a class="button-links" target="_blank" href="https://www.linkedin.com/in/juniomelos/">/Linkedin Júnio Melo</a><br>
     <a class="button-links" target="_blank" href="https://github.com/juniomelos">/Github</a><br>
-
-
     <a id="topo" href="#voltar-topo">^ Topo ^</a>    
-    
 
 </body>
 </html>
