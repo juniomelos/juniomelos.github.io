@@ -26,6 +26,21 @@ h2 {
     color:#11a36a;
     font-size: 28px;
 }
+.direita {
+    width: 50%;
+
+}
+.esquerda {
+    width: 50%;
+
+}
+.center-h2-text {
+    
+    margin-top: 10em;
+    margin-left: 26em;
+    display: flex;
+    align-items: center;
+}
 p {
     color: whitesmoke;
     display: inline-block;
@@ -69,12 +84,6 @@ img {
 }
 .cor-link-trybe-newton {
     color: #11a36a;
-}
-.esquerda {
-    display: table;
-    float: left;
-    width: 910px;
-    margin-top: 200px;
 }
 #topo {
     text-decoration: none;
