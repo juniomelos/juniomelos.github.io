@@ -37,32 +37,26 @@ ul, ol {
     display: inline-block;
     line-height: 1.7em;
 }
-
 li {
     text-align: left;
 }
 img {
-    max-height:300px;
+    max-height: 300px;
     width: auto;
     border-radius: 800px;
     border-color: #11a36a;
     border-style: solid;
-}                                    
-.button {
-    color: #fff;
-    background-color: #11a36a;
-    padding: 15px 30px;
-    font-size: 30px;
-    line-height: 20px;
-    font-weight: 700;
-    border-radius: 500px;
-    margin: 10px;
-
 }
+.sobre-mim {
+    float: right;
+    width: 45%;
+}
+.centralizar-text-img {
+    text-align: center;
+}                                
 .button-links {
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     color: #fff;
     background-color: #11a36a;
@@ -82,18 +76,10 @@ img {
     width: 910px;
     margin-top: 200px;
 }
-.sobre-mim {
-    float: right;
-    width: 45%;
-}
-.centralizar-text-img {
-    text-align: center;
-}
 #topo {
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     color: #fff;
     background-color: #7f1d96;
