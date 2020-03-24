@@ -55,7 +55,7 @@ ul, ol {
 li {
     text-align: left;
 }
-img {
+#img-junio {
     max-height: 300px;
     width: auto;
     border-radius: 800px;
@@ -68,36 +68,18 @@ img {
 }
 .centralizar-text-img {
     text-align: center;
-}                                
+}
+#links {
+    flex-direction: row;
+}                             
 .button-links {
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    text-align: center;
-    color: #fff;
-    background-color: #11a36a;
-    padding: 15px;
-    font-size: 15px;
-    line-height: 10px;
-    font-weight: 600;
-    border-radius: 500px;
-    margin: 1px;
+    padding: 25px;
+    margin: 20px;
 }
 .cor-link-trybe-newton {
     color: #11a36a;
-}
-#topo {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    background-color: #7f1d96;
-    padding: 15px;
-    font-size: 15px;
-    line-height: 10px;
-    font-weight: 600;
-    border-radius: 500px;
-    margin: 1px;
 }
 #font-1 {
     font-family: 'Indie Flower', cursive, sans-serif;
