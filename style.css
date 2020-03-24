@@ -42,13 +42,8 @@ li {
     text-align: left;
 }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:300px;
     max-height:300px;
     width: auto;
-    height: auto;
     border-radius: 800px;
     border-color: #11a36a;
     border-style: solid;
@@ -86,6 +81,13 @@ img {
     float: left;
     width: 910px;
     margin-top: 200px;
+}
+.sobre-mim {
+    float: right;
+    width: 45%;
+}
+.centralizar-text-img {
+    text-align: center;
 }
 #topo {
     text-decoration: none;
